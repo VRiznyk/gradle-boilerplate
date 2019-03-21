@@ -1,0 +1,13 @@
+apply plugin: 'com.android.library'
+
+android {
+    // your android code
+}
+
+//----------------------additional------------------------------------
+
+//maven repository info
+group = 'com.kage'
+version = '0.1.0'
+//publish to maven
+apply from: "$project.rootDir/maven.gradle"
